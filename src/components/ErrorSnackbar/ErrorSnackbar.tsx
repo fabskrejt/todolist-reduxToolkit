@@ -20,7 +20,6 @@ export function ErrorSnackbar() {
         dispatch(setAppErrorAC({value: null}));
     }
 
-
     const isOpen = error !== null;
 
     return (
